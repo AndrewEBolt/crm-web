@@ -1,5 +1,23 @@
 require 'sinatra'
 
 get '/' do
-  erb :index
+	@crm_app_name = "My CRM"
+	erb :index
 end
+
+get '/contacts' do
+
+end
+
+get '/contacts/new' do
+
+end
+
+get 'contacts/:id' do
+
+end
+
+get '/contacts/:id/edit'
+
+end
+
